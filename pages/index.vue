@@ -1,9 +1,9 @@
 <script>
-
 </script>
 <template>
-	<h5> Hello world </h5>
-
+	<div>
+		<h1> Hello world </h1>
+	</div>
 </template>
 <style>
 </style>
