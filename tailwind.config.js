@@ -1,21 +1,34 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+module.exports =  {
   content:[
     "./assets/**/*.css",
-    "./components/*.vue,js",
-    "./components/**/*.vue,js",
-    "./pages/*.vue",
+    "./components/**/*.{vue,js}",
+    "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
-    "./*.{vue,js,ts}",
-    "./nuxt.config.{js,ts}"],
+    "./plugins/*.{js,ts}",
+    // "./nuxt.config.{js,ts}"
+  ],
   theme: {
     extend: {},
   },
   plugins: [require("daisyui")],
   daisyui: {
     styled: true,
-    themes:["retro", "coffee" ],
+    themes:[{
+     mytheme: {
+	 "primary": "#fed7aa",
+	 "secondary": "#facc15",         
+	 "accent": "#d8b4fe",          
+	 "neutral": "#4ade80",
+	 "base-100": "#F6eee0",        
+	 "info": "#c4b5fd",
+	 "success": "#99f6e4",
+	 "warning": "#b45309",
+	 "error": "#ec4899",
+     }
+    },
+    "coffee" ],
     base: true,
     utils: true,
     logs: true,
