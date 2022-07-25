@@ -1,7 +1,5 @@
 <template>
-    <head><link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
-    <link href="./css/main.css" rel="stylesheet" /><title>Document</title></head><body><div class="v50_47">
+    <<div class="v50_47">
         <div class="v50_48"></div><span class="v50_49">WELCOME TO ANGAT-KINABUKASAN</span><div class="v50_50">
             </div><span class="v50_51">LOGN IN</span><div class="v50_52">
                 </div><span class="v50_53">SIGN UP</span><div class="v50_54">
@@ -16,7 +14,7 @@
                                             </div><span class="v50_68">SIGN IN</span>
                                             </div></div><div class="v50_69">
                                                 </div><div class="v50_70"></div>
-                                                </div></body>
+                                                </div>
 </template>
 <style>
 * {
