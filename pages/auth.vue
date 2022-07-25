@@ -15,4 +15,5 @@ const layout = "landing"
 	</NuxtLayout>
 </template>
 <style>
+
 </style>
