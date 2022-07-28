@@ -1,21 +1,21 @@
 <template>
-  <head>
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Inter&display=swap"
-      rel="stylesheet"
-    />
-    <link href="./css/main.css" rel="stylesheet" />
-    <title>Document</title>
-  </head>
-  <body>
+  <div name="root">
+    <Head>
+      <Link
+        href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+        rel="stylesheet"
+      />
+      <Link
+        href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+        rel="stylesheet"
+      />
+      <Link
+        href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+        rel="stylesheet"
+      />
+      <Link href="./css/main.css" rel="stylesheet" />
+      <Title>Document</Title>
+    </Head>
     <div class="v77_1058">
       <div class="name"></div>
       <div class="name"></div>
@@ -78,7 +78,7 @@
       <span class="v160_1509">Scholarship</span>
       <span class="v160_1510">Internship</span>
     </div>
-  </body>
+  </div>
 </template>
 
 <style>
@@ -113,7 +113,7 @@ body {
 .v77_1060 {
   width: 198px;
   height: 71px;
-  background: url("../images/v77_1060.png");
+  background: url("~/assets/images/v77_1060.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -162,7 +162,7 @@ body {
 .v77_1064 {
   width: 29px;
   height: 34px;
-  background: url("../images/v77_1064.png");
+  background: url("~/assets/images/v77_1064.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -175,7 +175,7 @@ body {
 .v77_1065 {
   width: 29px;
   height: 34px;
-  background: url("../images/v77_1065.png");
+  background: url("~/assets/images/v77_1065.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -197,7 +197,7 @@ body {
 .v77_1071 {
   width: 584px;
   height: 57px;
-  background: url("../images/v77_1071.png");
+  background: url("~/assets/images/v77_1071.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -236,7 +236,7 @@ body {
 .v77_1074 {
   width: 179px;
   height: 57px;
-  background: url("../images/v77_1074.png");
+  background: url("~/assets/images/v77_1074.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -249,7 +249,7 @@ body {
 .v77_1075 {
   width: 69px;
   height: 57px;
-  background: url("../images/v77_1075.png");
+  background: url("~/assets/images/v77_1075.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -285,7 +285,7 @@ body {
 .v77_1078 {
   width: 285px;
   height: 299px;
-  background: url("../images/v77_1078.png");
+  background: url("~/assets/images/v77_1078.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -352,7 +352,7 @@ body {
 .v77_1086 {
   width: 52px;
   height: 58px;
-  background: url("../images/v77_1086.png");
+  background: url("~/assets/images/v77_1086.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

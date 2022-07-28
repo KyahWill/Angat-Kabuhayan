@@ -1,54 +1,78 @@
 <template>
-  <Head>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
-    <link href="./css/main.css" rel="stylesheet" />
-    <title>Document</title>
+  <div name="root">
+    <Head>
+      <link
+        href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+        rel="stylesheet"
+      />
+      <link href="./css/main.css" rel="stylesheet" />
+      <title>Document</title>
     </Head>
-  
-      <div class="v76_1100">
-        <div class="v76_1101">
-          <span class="v76_1102">My Profile</span>
-          <div class="v76_1103">
-            <div class="v76_1104">
-              <div class="v76_1105">
-                <div class="v76_1106">
-                  </div>
-                </div>
-              </div>
+
+    <div class="v76_1100">
+      <div class="v76_1101">
+        <span class="v76_1102">My Profile</span>
+        <div class="v76_1103">
+          <div class="v76_1104">
+            <div class="v76_1105">
+              <div class="v76_1106"></div>
             </div>
           </div>
-          <span class="v76_1107">Notification</span>
-          <div class="v76_1112">
-            <div class="v76_1113">
-              <span class="v76_1114">Search </span></div>
-              <div class="v76_1115"></div>
-              <div class="v76_1116">
-                <div class="v76_1117"><div class="v76_1118">
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                  <div class="v76_1119"></div>
-                  <span class="v76_1127">Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</span>
-                  <span class="v76_1131">Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</span>
-                  <span class="v76_1135">Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</span>
-                  <span class="v76_1139">Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</span>
-                  <div class="name">
-                    </div><div class="name">
-                      </div><div class="v76_1143"></div>
-                      <div class="name"></div>
-                      <div class="name"></div>
-                      <div class="name"></div>
-                      <div class="v77_984"></div>
-                      <span class="v77_2982">SCHOLARSHIP PROGRAMS</span>
-                      <span class="v160_1539">Home</span>
-                      <span class="v160_1540">Donate</span>
-                      <span class="v160_1541">Scholarship</span>
-                      <span class="v160_1542">Internship</span>
-                    </div>
-        
+        </div>
+      </div>
+      <span class="v76_1107">Notification</span>
+      <div class="v76_1112">
+        <div class="v76_1113">
+          <span class="v76_1114">Search </span>
+        </div>
+        <div class="v76_1115"></div>
+        <div class="v76_1116">
+          <div class="v76_1117"><div class="v76_1118"></div></div>
+        </div>
+      </div>
+      <div class="v76_1119"></div>
+      <span class="v76_1127"
+        >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
+        necessitatibus veritatis sed molestiae voluptates incidunt iure
+        sapiente.</span
+      >
+      <span class="v76_1131"
+        >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
+        necessitatibus veritatis sed molestiae voluptates incidunt iure
+        sapiente.</span
+      >
+      <span class="v76_1135"
+        >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
+        necessitatibus veritatis sed molestiae voluptates incidunt iure
+        sapiente.</span
+      >
+      <span class="v76_1139"
+        >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
+        necessitatibus veritatis sed molestiae voluptates incidunt iure
+        sapiente.</span
+      >
+      <div class="name"></div>
+      <div class="name"></div>
+      <div class="v76_1143"></div>
+      <div class="name"></div>
+      <div class="name"></div>
+      <div class="name"></div>
+      <div class="v77_984"></div>
+      <span class="v77_2982">SCHOLARSHIP PROGRAMS</span>
+      <span class="v160_1539">Home</span>
+      <span class="v160_1540">Donate</span>
+      <span class="v160_1541">Scholarship</span>
+      <span class="v160_1542">Internship</span>
+    </div>
+  </div>
 </template>
 
 <style>
@@ -61,7 +85,7 @@ body {
 .v76_1100 {
   width: 100%;
   height: 1080px;
-  background: rgba(246,238,224,1);
+  background: rgba(246, 238, 224, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -83,7 +107,7 @@ body {
 }
 .v76_1102 {
   width: 107px;
-  color: rgba(37,43,66,1);
+  color: rgba(37, 43, 66, 1);
   position: absolute;
   top: 17px;
   left: 90px;
@@ -96,7 +120,7 @@ body {
 .v76_1103 {
   width: 68px;
   height: 71px;
-  background: rgba(232,232,232,1);
+  background: rgba(232, 232, 232, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -110,7 +134,7 @@ body {
 .v76_1104 {
   width: 31px;
   height: 36px;
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
   top: 16px;
@@ -138,11 +162,11 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  border: 2.447819232940674px solid rgba(37,43,66,1);
+  border: 2.447819232940674px solid rgba(37, 43, 66, 1);
 }
 .v76_1107 {
   width: 107px;
-  color: rgba(37,43,66,1);
+  color: rgba(37, 43, 66, 1);
   position: absolute;
   top: 85px;
   left: 1502px;
@@ -168,7 +192,7 @@ body {
 .v76_1113 {
   width: 515px;
   height: 57px;
-  background: rgba(245,245,245,1);
+  background: rgba(245, 245, 245, 1);
   padding: 21px 28px;
   margin: 54px;
   opacity: 1;
@@ -181,7 +205,7 @@ body {
 }
 .v76_1114 {
   width: 56px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 12px;
   left: 30px;
@@ -220,7 +244,7 @@ body {
 .v76_1117 {
   width: 69px;
   height: 57px;
-  background: rgba(164,92,64,1);
+  background: rgba(164, 92, 64, 1);
   padding: 21px 23px;
   margin: 11px;
   opacity: 1;
@@ -234,7 +258,7 @@ body {
 .v76_1118 {
   width: 23px;
   height: 23px;
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
   top: 16px;
@@ -255,7 +279,7 @@ body {
 }
 .v76_1127 {
   width: 209px;
-  color: rgba(31,41,55,1);
+  color: rgba(31, 41, 55, 1);
   position: absolute;
   top: 1094px;
   left: 240px;
@@ -267,7 +291,7 @@ body {
 }
 .v76_1131 {
   width: 209px;
-  color: rgba(31,41,55,1);
+  color: rgba(31, 41, 55, 1);
   position: absolute;
   top: 1091px;
   left: 1332px;
@@ -279,7 +303,7 @@ body {
 }
 .v76_1135 {
   width: 209px;
-  color: rgba(31,41,55,1);
+  color: rgba(31, 41, 55, 1);
   position: absolute;
   top: 1091px;
   left: 968px;
@@ -291,7 +315,7 @@ body {
 }
 .v76_1139 {
   width: 209px;
-  color: rgba(31,41,55,1);
+  color: rgba(31, 41, 55, 1);
   position: absolute;
   top: 1094px;
   left: 604px;
@@ -344,7 +368,7 @@ body {
 }
 .v77_2982 {
   width: 671px;
-  color: rgba(71,83,102,1);
+  color: rgba(71, 83, 102, 1);
   position: absolute;
   top: 235px;
   left: 753px;
@@ -356,7 +380,7 @@ body {
 }
 .v160_1539 {
   width: 69px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 87px;
   left: 839px;
@@ -368,7 +392,7 @@ body {
 }
 .v160_1540 {
   width: 142px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 87px;
   left: 1259px;
@@ -380,7 +404,7 @@ body {
 }
 .v160_1541 {
   width: 142px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 87px;
   left: 939px;
@@ -392,7 +416,7 @@ body {
 }
 .v160_1542 {
   width: 142px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 87px;
   left: 1101px;
@@ -402,5 +426,4 @@ body {
   opacity: 1;
   text-align: center;
 }
-
-</style
+</style>

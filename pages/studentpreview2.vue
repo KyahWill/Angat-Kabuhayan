@@ -5,26 +5,26 @@
 
 <template>
   <div id="root">
-    <HEAD>
-        <Link
-      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
-      rel="stylesheet"
+    <Head>
+      <Link
+        href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+        rel="stylesheet"
       />
-       <Link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-      rel="stylesheet"
+      <Link
+        href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+        rel="stylesheet"
       />
-       <Link
-      href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap"
-      rel="stylesheet"
-     />
-       <Link
-      href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap"
-      rel="stylesheet"
-       />
+      <Link
+        href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap"
+        rel="stylesheet"
+      />
+      <Link
+        href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap"
+        rel="stylesheet"
+      />
       <Link href="./css/main.css" rel="stylesheet" />
-    <Title>StudentPreview</Title>
-  </Head>
+      <Title>StudentPreview</Title>
+    </Head>
     <div class="v159_1290">
       <div class="v159_1291">
         <span class="v159_1292">My Profile</span>
@@ -48,7 +48,8 @@
       <span class="v159_1310"
         >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
         necessitatibus veritatis sed molestiae voluptates incidunt iure
-        sapiente.</span>
+        sapiente.</span
+      >
       <div class="name"></div>
       <div class="v159_1312"></div>
       <span class="v159_1313">DONATED</span>
@@ -65,7 +66,8 @@
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.</span>
+        mollit anim id est laborum.</span
+      >
       <div class="name"></div>
       <span class="v159_1323">JANE SMITH</span
       ><span class="v159_1324">About Myself</span>
@@ -100,6 +102,7 @@
       ><span class="v160_1521">Scholarship</span
       ><span class="v160_1522">Internship</span>
     </div>
+  </div>
 </template>
 <style>
 * {
