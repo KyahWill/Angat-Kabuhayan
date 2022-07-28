@@ -29,7 +29,14 @@ landing-page { align-items: flex-start; background-color: var(--quarter-spanish-
 .flex-row {
 align-items: center; align-self: center; display: flex; margin-left: 3px; margin-top: 95px; min-width: 1637px;
 .link {
-letter-spacing: 0.2px; line-height: 24px; margin-bottom: 5px; min-height: 24px; min-width: 64px; text-align: center; white-space: nowrap;}
+letter-spacing: 0.2px; 
+line-height: 24px;
+margin-bottom: 5px;
+min-height: 24px; 
+min-width: 64px; 
+text-align: center; 
+white-space: nowrap;
+}
 .navbar-nav { align-items: center;
  display: flex; 
 gap: 21px; 
