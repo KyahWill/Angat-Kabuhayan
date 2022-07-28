@@ -433,25 +433,6 @@ body {
   font-size: 20px;
   opacity: 1;
   text-align: center;
+
 }
-bsolute;
-  top: 85px;
-  left: 949px;
-  font-family: Montserrat;
-  font-weight: SemiBold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v160_1510 {
-  width: 142px;
-  color: rgba(114, 114, 114, 1);
-  position: absolute;
-  top: 85px;
-  left: 1111px;
-  font-family: Montserrat;
-  font-weight: SemiBold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}</style>
+</style>
