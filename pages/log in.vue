@@ -1,20 +1,22 @@
 <template>
-    <<div class="v50_47">
-        <div class="v50_48"></div><span class="v50_49">WELCOME TO ANGAT-KINABUKASAN</span><div class="v50_50">
-            </div><span class="v50_51">LOGN IN</span><div class="v50_52">
-                </div><span class="v50_53">SIGN UP</span><div class="v50_54">
-                    <div class="v50_55"><div class="v50_56"><div class="v50_57">
-                        </div><div class="name">
-                            </div><span class="v50_59">Sign in with Google</span>
-                            </div><div class="v50_60"><div class="v50_61"></div><div class="name">
-                                </div></div></div><div class="name"></div>
-                                <div class="name"></div>
-                                        <span class="v50_65">Forgot Password</span>
-                                        <div class="v50_66"><div class="v50_67">
-                                            </div><span class="v50_68">SIGN IN</span>
-                                            </div></div><div class="v50_69">
-                                                </div><div class="v50_70"></div>
-                                                </div>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+<link href="./css/main.css" rel="stylesheet" />
+<title>Document</title></head><body><div class="v50_47">
+    <div class="v50_48"></div><span class="v50_49">WELCOME TO ANGAT-KINABUKASAN</span>
+    <div class="v50_50"></div><span class="v50_51">LOG IN</span>
+    <div class="v50_52"></div><span class="v50_53">SIGN UP</span>
+    <div class="v50_54"><div class="v50_55"><div class="v50_56">
+        <div class="v50_57"></div><div class="name"></div>
+        <span class="v50_59">Sign in with Google</span></div>
+        <div class="v50_60"><div class="v50_61"></div><div class="name">
+            </div></div></div><div class="name"></div><div class="name">
+                </div><span class="v50_65">Forgot Password</span>
+                <div class="v50_66"><div class="v50_67"></div><span class="v50_68">SIGN IN</span>
+                </div></div><div class="v50_69"
+                ></div><div class="v50_70"></div></div>
+</body>
 </template>
 <style>
 * {
@@ -65,11 +67,11 @@ body {
   overflow: hidden;
 }
 .v50_51 {
-  width: 89px;
+  width: 73px;
   color: rgba(255,255,255,1);
   position: absolute;
   top: 122px;
-  left: 1221px;
+  left: 1237px;
   font-family: Montserrat;
   font-weight: Bold;
   font-size: 20px;
@@ -277,5 +279,4 @@ body {
   left: 209px;
   overflow: hidden;
 }
-
 </style>
