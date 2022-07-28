@@ -5,8 +5,9 @@
 <link href="./css/main.css" rel="stylesheet" />
 <title>Document</title></head><body><div class="v76_1100">
 <div class="name"></div><div class="v76_1101">
-<span class="v76_1102">My Profile</span><
-    div class="v76_1103"><div class="v76_1104">
+<span class="v76_1102">My Profile</span>
+
+    <div class="v76_1103"><div class="v76_1104">
     <div class="v76_1105"><div class="v76_1106">
     </div></div></div></div></div>
     <span class="v76_1107">Notification</span>

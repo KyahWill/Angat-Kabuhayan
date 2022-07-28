@@ -32,11 +32,10 @@ align-items: center; align-self: center; display: flex; margin-left: 3px; margin
 letter-spacing: 0.2px; line-height: 24px; margin-bottom: 5px; min-height: 24px; min-width: 64px; text-align: center; white-space: nowrap;}
 .navbar-nav { align-items: center;
  display: flex; 
-gap: 21px; height: 
-min-content;
- margin-bottom: 
-5px; margin-left: 
-76px;
+gap: 21px; 
+height:min-content;
+margin-bottom: 5px; 
+margin-left: 76px;
 width: min-content;
 }
 li { height: 24px; 
@@ -112,17 +111,18 @@ position: absolute;
  top: 0; 
 width: 1418px;
 }
-.pacifique-1 { height: 628px;
- left: 480px;
+.pacifique-1 { 
+height: 628px;
+left: 480px;
 object-fit: cover;
- position: absolute;
- top: 95px;
- width: 632px;
+position: absolute;
+top: 95px;
+width: 632px;
 }
 .line-2 { height: 3px;
- left: 1278px; 
+left: 1278px; 
 position: absolute;
- top: 438px; 
+top: 438px; 
 width: 844px;
 }
 .angat-kinabukasan {
@@ -213,6 +213,7 @@ padding: 15px 25px;
 position: absolute;
  top: 0;
  width: min-content;
+ 
 .btn-text {
 letter-spacing: 0.2px;
  line-height: 28px; 
