@@ -1,57 +1,72 @@
 <template>
+  <div name="root">
     <Head>
-      <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
-      <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+        rel="stylesheet"
+      />
       <link href="./css/main.css" rel="stylesheet" />
       <title>Document</title>
-      </Head>
-      <body>
-        <div class="v160_2253">
-          <div class="v160_2255">
-            <div class="v160_2256">
-            <span class="v160_2257">Search </span>
+    </Head>
+    <div class="v160_2253">
+      <div class="v160_2255">
+        <div class="v160_2256">
+          <span class="v160_2257">Search </span>
+        </div>
+        <div class="v160_2258"></div>
+        <div class="v160_2259">
+          <div class="v160_2260">
+            <div class="v160_2261"></div>
+          </div>
+        </div>
+      </div>
+      <div class="v160_2262"></div>
+      <div class="v160_2264"></div>
+      <span class="v160_2265">Notification</span>
+      <div class="v160_2266"></div>
+      <div class="v160_2267">
+        <span class="v160_2268">My Profile</span>
+        <div class="v160_2269">
+          <div class="v160_2270">
+            <div class="v160_2271">
+              <div class="v160_2272"></div>
             </div>
-            <div class="v160_2258"></div>
-            <div class="v160_2259">
-              <div class="v160_2260">
-                <div class="v160_2261">
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                  <div class="v160_2262"></div>
-                  <div class="v160_2264"></div>
-                  <span class="v160_2265">Notification</span>
-                  <div class="v160_2266"></div>
-                  <div class="v160_2267">
-                    <span class="v160_2268">My Profile</span>
-                    <div class="v160_2269">
-                      <div class="v160_2270">
-                        <div class="v160_2271">
-                          <div class="v160_2272">
-                            </div></div></div></div></div>
-                            <span class="v160_2273">Home</span><
-                              span class="v160_2274">Donate</span>
-                              <span class="v160_2275">Scholarship</span>
-                              <span class="v160_2276">Internship</span>
-                              <div class="v160_2296"><
-                                div class="v160_2295">
-                                <span class="v160_2254">Do You Have Any Other Question</span>
-                                <div class="v160_2263"></div><div class="v160_2288">
-                                  </div></div></div><div class="v160_2294">
-                                    <div class="v160_2292">
-                                      <div class="v160_2291">
-                                        </div><span class="v160_2280">EMAIL</span>
-                                        <span class="v160_2290">angatkinabukasan@gmail.com</span>
-                                        <div class="v160_2289"></div></div></div>
-                                        <div class="v160_2297">
-                                          <div class="v161_1634">
-                                            <div class="v161_1635">
-                                              </div>
-                                              <span class="v161_1636">CONTACT</span>
-                                              <span class="v161_1637">09 911 119 911</span>
-                                              </div><div class="v161_1640"></div></div></div>
-              </body>
+          </div>
+        </div>
+      </div>
+      <span class="v160_2273">Home</span>
+      <span class="v160_2274">Donate</span>
+      <span class="v160_2275">Scholarship</span>
+      <span class="v160_2276">Internship</span>
+      <div class="v160_2296">
+        <div class="v160_2295">
+          <span class="v160_2254">Do You Have Any Other Question</span>
+          <div class="v160_2263"></div>
+          <div class="v160_2288"></div>
+        </div>
+      </div>
+    </div>
+    <div class="v160_2294">
+      <div class="v160_2292">
+        <div class="v160_2291"></div>
+        <span class="v160_2280">EMAIL</span>
+        <span class="v160_2290">angatkinabukasan@gmail.com</span>
+        <div class="v160_2289"></div>
+      </div>
+    </div>
+    <div class="v160_2297">
+      <div class="v161_1634">
+        <div class="v161_1635"></div>
+        <span class="v161_1636">CONTACT</span>
+        <span class="v161_1637">09 911 119 911</span>
+      </div>
+      <div class="v161_1640"></div>
+    </div>
+  </div>
 </template>
 
 <style>
@@ -64,7 +79,7 @@ body {
 .v160_2253 {
   width: 100%;
   height: 1080px;
-  background: rgba(246,238,224,1);
+  background: rgba(246, 238, 224, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -87,7 +102,7 @@ body {
 .v160_2256 {
   width: 515px;
   height: 57px;
-  background: rgba(245,245,245,1);
+  background: rgba(245, 245, 245, 1);
   padding: 21px 28px;
   margin: 54px;
   opacity: 1;
@@ -100,7 +115,7 @@ body {
 }
 .v160_2257 {
   width: 56px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 12px;
   left: 30px;
@@ -139,7 +154,7 @@ body {
 .v160_2260 {
   width: 69px;
   height: 57px;
-  background: rgba(164,92,64,1);
+  background: rgba(164, 92, 64, 1);
   padding: 21px 23px;
   margin: 11px;
   opacity: 1;
@@ -153,7 +168,7 @@ body {
 .v160_2261 {
   width: 23px;
   height: 23px;
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
   top: 16px;
@@ -167,7 +182,7 @@ body {
   position: absolute;
   top: 155px;
   left: 208px;
-  border: 1px solid rgba(164,92,64,1);
+  border: 1px solid rgba(164, 92, 64, 1);
 }
 .v160_2264 {
   width: 285px;
@@ -184,7 +199,7 @@ body {
 }
 .v160_2265 {
   width: 107px;
-  color: rgba(37,43,66,1);
+  color: rgba(37, 43, 66, 1);
   position: absolute;
   top: 76px;
   left: 1482px;
@@ -222,7 +237,7 @@ body {
 }
 .v160_2268 {
   width: 107px;
-  color: rgba(37,43,66,1);
+  color: rgba(37, 43, 66, 1);
   position: absolute;
   top: 17px;
   left: 90px;
@@ -235,7 +250,7 @@ body {
 .v160_2269 {
   width: 68px;
   height: 71px;
-  background: rgba(232,232,232,1);
+  background: rgba(232, 232, 232, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -249,7 +264,7 @@ body {
 .v160_2270 {
   width: 31px;
   height: 36px;
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
   top: 16px;
@@ -277,11 +292,11 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  border: 2.447819232940674px solid rgba(37,43,66,1);
+  border: 2.447819232940674px solid rgba(37, 43, 66, 1);
 }
 .v160_2273 {
   width: 69px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 78px;
   left: 861px;
@@ -293,7 +308,7 @@ body {
 }
 .v160_2274 {
   width: 142px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 78px;
   left: 1281px;
@@ -305,7 +320,7 @@ body {
 }
 .v160_2275 {
   width: 142px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 78px;
   left: 961px;
@@ -317,7 +332,7 @@ body {
 }
 .v160_2276 {
   width: 142px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 78px;
   left: 1123px;
@@ -355,7 +370,7 @@ body {
 }
 .v160_2254 {
   width: 835px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 25px;
   left: 282px;
@@ -373,7 +388,7 @@ body {
   position: absolute;
   top: 79px;
   left: 0px;
-  border: 1px solid rgba(164,92,64,1);
+  border: 1px solid rgba(164, 92, 64, 1);
 }
 .v160_2288 {
   width: 89px;
@@ -417,7 +432,7 @@ body {
 .v160_2291 {
   width: 704px;
   height: 167px;
-  background: rgba(217,217,217,1);
+  background: rgba(217, 217, 217, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -425,7 +440,7 @@ body {
 }
 .v160_2280 {
   width: 236px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 45px;
   left: 170px;
@@ -437,7 +452,7 @@ body {
 }
 .v160_2290 {
   width: 416px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 102px;
   left: 212px;
@@ -489,7 +504,7 @@ body {
 .v161_1635 {
   width: 704px;
   height: 167px;
-  background: rgba(217,217,217,1);
+  background: rgba(217, 217, 217, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -498,7 +513,7 @@ body {
 }
 .v161_1636 {
   width: 236px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 42px;
   left: 187px;
@@ -510,7 +525,7 @@ body {
 }
 .v161_1637 {
   width: 416px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 99px;
   left: 254px;
@@ -533,5 +548,4 @@ body {
   left: 64px;
   overflow: hidden;
 }
-
 </style>

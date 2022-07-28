@@ -6,85 +6,98 @@
 <template>
   <div name="root">
     <Head>
-      <Link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" 
-        rel="stylesheet" 
-        />
-      <Link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" 
-        rel="stylesheet" 
-        />
-      <Link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" 
-        rel="stylesheet" 
-        />
-      <Link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" 
-        rel="stylesheet" 
-        />
-      <Link href="./css/main.css" 
-        rel="stylesheet" 
-        />
-        <Title>Student View</Title>
-        </Head>
-        
-      <div class="v77_1238">
-        <div class="v77_1243">
-          <span class="v77_1244">My Profile</span>
-          <div class="v77_1245">
-            <div class="v77_1246">
-              <div class="v77_1247">
-                <div class="v77_1248">
-                  </div>
-                  <div>
-                    </div>
-                </div>
-             </div>
-          <span class="v77_1249">Notification</span>
-        <div class="v77_1254">
-        <div class="v77_1255">
-        <span class="v77_1256">Search </span>
-          </div><div class="v77_1257">
-           </div><div class="v77_1258">
-             <div class="v77_1259">
-               <div class="v77_1260"></div>
-               </div>
-              </div>
+      <Link
+        href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+        rel="stylesheet"
+      />
+      <Link
+        href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+        rel="stylesheet"
+      />
+      <Link
+        href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap"
+        rel="stylesheet"
+      />
+      <Link
+        href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap"
+        rel="stylesheet"
+      />
+      <Link href="./css/main.css" rel="stylesheet" />
+      <Title>Student View</Title>
+    </Head>
+    <div class="v77_1238">
+      <div class="v77_1243">
+        <span class="v77_1244">My Profile</span>
+        <div class="v77_1245">
+          <div class="v77_1246">
+            <div class="v77_1247">
+              <div class="v77_1248"></div>
             </div>
-              <div class="v77_1261">
-              </div>span class="v77_1262">Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</span>
-              <div class="name"></div>
-              <div class="v77_1268"></div>
-              <span class="v77_3233">APPLICATIONS</span>
-              <span class="v77_3234">Internship Program</span>
-              <div class="v77_3197"></div>
-              <div class="v77_3200"></div>
-              <span class="v77_3201">WELCOME, JANE!</span>
-              <div class="name"></div>
-              <span class="v77_3204">Lagro High School INC</span>
-              <span class="v79_1210">STUDENT</span>
-              <span class="v77_3213">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-              <div class="name"></div>
-              <span class="v77_3205">JANE SMITH</span>
-              <span class="v77_3212">About Myself</span>
-              <span class="v153_1578">Donation  Program</span>
-              <div class="v159_1369">
-                <div class="v159_1370">
-                  </div>
-                  <div class="v159_1371"></div>
-                  <div class="v159_1374"></div>
-                  <span class="v159_1375">VIEW</span>
-                  <span class="v159_1372">PUP LABORATORY UNIFORM</span>
-                  <span class="v159_1376">Size: Medium (Female)
-            Meet up place:  Sta. Mesa Jollibee 
-            Contact: 09675411323</span>
           </div>
-            <span class="v160_1511">Home</span>
-            <span class="v160_1512">Donate</span>
-            <span class="v160_1513">Scholarship</span>
-            <span class="v160_1514">Internship</span>
-            <div class="name"></div>
-          <span class="v160_1891">Scholarship Program</span>
-        <div class="name">
+        </div>
+        <span class="v77_1249">Notification</span>
+        <div class="v77_1254">
+          <div class="v77_1255">
+            <span class="v77_1256">Search </span>
+          </div>
+          <div class="v77_1257"></div>
+          <div class="v77_1258">
+            <div class="v77_1259">
+              <div class="v77_1260"></div>
+            </div>
+          </div>
+        </div>
+        <div class="v77_1261"></div>
+        <span class="v77_1262"
+          >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit
+          sit necessitatibus veritatis sed molestiae voluptates incidunt iure
+          sapiente.</span
+        >
+        <div class="name"></div>
+        <div class="v77_1268"></div>
+        <span class="v77_3233">APPLICATIONS</span>
+        <span class="v77_3234">Internship Program</span>
+        <div class="v77_3197"></div>
+        <div class="v77_3200"></div>
+        <span class="v77_3201">WELCOME, JANE!</span>
+        <div class="name"></div>
+        <span class="v77_3204">Lagro High School INC</span>
+        <span class="v79_1210">STUDENT</span>
+        <span class="v77_3213"
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.</span
+        >
+        <div class="name"></div>
+        <span class="v77_3205">JANE SMITH</span>
+        <span class="v77_3212">About Myself</span>
+        <span class="v153_1578">Donation Program</span>
+        <div class="v159_1369">
+          <div class="v159_1370"></div>
+          <div class="v159_1371"></div>
+          <div class="v159_1374"></div>
+          <span class="v159_1375">VIEW</span>
+          <span class="v159_1372">PUP LABORATORY UNIFORM</span>
+          <span class="v159_1376"
+            >Size: Medium (Female) Meet up place: Sta. Mesa Jollibee Contact:
+            09675411323</span
+          >
+        </div>
+        <span class="v160_1511">Home</span>
+        <span class="v160_1512">Donate</span>
+        <span class="v160_1513">Scholarship</span>
+        <span class="v160_1514">Internship</span>
+        <div class="name"></div>
+        <span class="v160_1891">Scholarship Program</span>
+        <div class="name"></div>
       </div>
     </div>
-  </template>
+  </div>
+</template>
   
 <style>
 * {

@@ -5,18 +5,18 @@
 
 <template>
   <div name="root">
-  <Head>
-      <Link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" 
-        rel="stylesheet" 
-        />
-      <Link href="https://fonts.googleapis.com/css?family=Inter&display=swap" 
-        rel="stylesheet" 
-        />
-      <Link href="./css/main.css" 
-        rel="stylesheet" 
-        />
-    <Title>Document</Title>
-  </Head>
+    <Head>
+      <Link
+        href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+        rel="stylesheet"
+      />
+      <Link
+        href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+        rel="stylesheet"
+      />
+      <Link href="./css/main.css" rel="stylesheet" />
+      <Title>Document</Title>
+    </Head>
     <div class="v160_2253">
       <div class="v160_2255">
         <div class="v160_2256">
@@ -24,60 +24,54 @@
         </div>
       </div>
     </div>
-          <div class="v160_2258"> </div>
-            <div class="v160_2259">
-              <div class="v160_2260">
-                <div class="v160_2261"> </div>
-              </div>
-            </div>
-         </div>
-              <div class="v160_2262"></div>
-                <div class="v160_2264"></div>
-                  <span class="v160_2265">Notification</span>
-                    <div class="v160_2266"></div>
-                      <div class="v160_2267">
-                       <span class="v160_2268">My Profile</span>
-                      <div class="v160_2269">
-                      <div class="v160_2270">
-                     <div class="v160_2271">
-                   <div class="v160_2272">
-                </div>
-              </div>
-            </div>
+    <div class="v160_2258"></div>
+    <div class="v160_2259">
+      <div class="v160_2260">
+        <div class="v160_2261"></div>
+      </div>
+    </div>
+
+    <div class="v160_2262"></div>
+    <div class="v160_2264"></div>
+    <span class="v160_2265">Notification</span>
+    <div class="v160_2266"></div>
+    <div class="v160_2267">
+      <span class="v160_2268">My Profile</span>
+      <div class="v160_2269">
+        <div class="v160_2270">
+          <div class="v160_2271">
+            <div class="v160_2272"></div>
           </div>
         </div>
-           <span class="v160_2273">Home</span>
-           <span class="v160_2274">Donate</span>
-           <span class="v160_2275">Scholarship</span>
-           <span class="v160_2276">Internship</span>
-           <div class="v160_2296">
-           <div class="v160_2295">
-           <span class="v160_2254">Do You Have Any Other Question</span>
-           <div class="v160_2263"></div><div class="v160_2288">
-           </div>
-           </div>
-           </div>
-             <div class="v160_2294">
-             <div class="v160_2292">
-            <div class="v160_2291">
-         </div>
-          <span class="v160_2280">EMAIL</span>
-          <span class="v160_2290">angatkinabukasan@gmail.com</span>
-        <div class="v160_2289"></div>
-         </div>
-        </div>
-          <div class="v160_2297"> 
-            <div class="v161_1634"> </div>
-             <div class="v161_1635"></div>
-            <span class="v161_1636">CONTACT  </span>
-               <span class="v161_1637">
-                 09 911 119 911
-                </span>
-            </div>
-        <div class="v161_1640"></div>
+      </div>
     </div>
+    <span class="v160_2273">Home</span>
+    <span class="v160_2274">Donate</span>
+    <span class="v160_2275">Scholarship</span>
+    <span class="v160_2276">Internship</span>
+    <div class="v160_2296">
+      <div class="v160_2295">
+        <span class="v160_2254">Do You Have Any Other Question</span>
+        <div class="v160_2263"></div>
+        <div class="v160_2288"></div>
+      </div>
+    </div>
+    <div class="v160_2294">
+      <div class="v160_2292">
+        <div class="v160_2291"></div>
+        <span class="v160_2280">EMAIL</span>
+        <span class="v160_2290">angatkinabukasan@gmail.com</span>
+        <div class="v160_2289"></div>
+      </div>
+    </div>
+    <div class="v160_2297">
+      <div class="v161_1634"></div>
+      <div class="v161_1635"></div>
+      <span class="v161_1636">CONTACT </span>
+      <span class="v161_1637"> 09 911 119 911 </span>
+    </div>
+    <div class="v161_1640"></div>
   </div>
-</div>
 </template>
 
 <style>
