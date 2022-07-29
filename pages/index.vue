@@ -1,5 +1,14 @@
 <script setup lang="ts">
-console.log("-------AppPP______");
+onMounted( async () => {
+  // const email = "knownbutnotloved@gmail.com"
+  // const password = "password"
+
+  // const credentials = await createUser(email, password)
+  // console.log(credentials)
+  
+  const credentials = await signinUser("knownbutnotloved@gmail.com", "123456")
+  console.log(credentials)
+})
 </script>
 <template>
   <div id="root">
