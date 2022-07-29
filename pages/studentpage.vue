@@ -162,7 +162,7 @@ body {
 .v77_1064 {
   width: 29px;
   height: 34px;
-  background: url("~/assets/images/v77_1064.png");
+  /* background: url("~/assets/images/v77_1064.png"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
