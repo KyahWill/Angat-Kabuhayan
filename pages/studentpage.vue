@@ -175,7 +175,7 @@ body {
 .v77_1065 {
   width: 29px;
   height: 34px;
-  background: url("~/assets/images/v77_1065.png");
+  /* background: url("~/assets/images/v77_1065.png"); */
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -197,7 +197,7 @@ body {
 .v77_1071 {
   width: 584px;
   height: 57px;
-  background: url("~/assets/images/v77_1071.png");
+  /* background: url("~/assets/images/v77_1071.png"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -236,7 +236,7 @@ body {
 .v77_1074 {
   width: 179px;
   height: 57px;
-  background: url("~/assets/images/v77_1074.png");
+  /* background: url("~/assets/images/v77_1074.png"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -249,7 +249,7 @@ body {
 .v77_1075 {
   width: 69px;
   height: 57px;
-  background: url("~/assets/images/v77_1075.png");
+  /* background: url("~/assets/images/v77_1075.png"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -285,7 +285,7 @@ body {
 .v77_1078 {
   width: 285px;
   height: 299px;
-  background: url("~/assets/images/v77_1078.png");
+  /* background: url("~/assets/images/v77_1078.png"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -352,7 +352,7 @@ body {
 .v77_1086 {
   width: 52px;
   height: 58px;
-  background: url("~/assets/images/v77_1086.png");
+  /* background: url("~/assets/images/v77_1086.png"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
