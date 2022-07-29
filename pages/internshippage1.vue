@@ -15,7 +15,7 @@
       />
     </Head>
     <div class="v77_985">
-      <div class="v77_987">
+      <div class="">
         <span class="v77_988">My Profile</span>
         <div class="v77_989">
           <div class="v77_990">
@@ -87,19 +87,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v77_987 {
-  width: 198px;
-  height: 71px;
-  background: url("~/assets/images/v77_987.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 59px;
-  left: 1657px;
-  overflow: hidden;
-}
+
 .v77_988 {
   width: 107px;
   color: rgba(37, 43, 66, 1);
