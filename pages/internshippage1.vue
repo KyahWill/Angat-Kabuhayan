@@ -19,9 +19,6 @@
         <span class="v77_988">My Profile</span>
         <div class="v77_989">
           <div class="v77_990">
-            <div class="v77_991">
-              <div class="v77_992"></div>
-            </div>
           </div>
         </div>
       </div>
