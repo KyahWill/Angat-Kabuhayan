@@ -1,72 +1,80 @@
 <template>
   <div name="root">
     <Head>
-      <Link
+      <link
         href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
         rel="stylesheet"
       />
-      <Link
+      <link
         href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
         rel="stylesheet"
       />
-      <Link
+      <link
         href="https://fonts.googleapis.com/css?family=Inter&display=swap"
         rel="stylesheet"
       />
+      <link href="./css/main.css" rel="stylesheet" />
+      <title>Document</title>
     </Head>
-    <div class="v77_985">
-      <div class="">
-        <span class="v77_988">My Profile</span>
-        <div class="v77_989">
-          <div class="v77_990">
+
+    <div class="v76_1100">
+      <div class="v76_1101">
+        <span class="v76_1102">My Profile</span>
+        <div class="v76_1103">
+          <div class="v76_1104">
+            <div class="v76_1105">
+              <div class="v76_1106"></div>
+            </div>
           </div>
         </div>
       </div>
-      <span class="v77_993">Notification</span>
-      <span class="v77_994">Home</span>
-      <span class="v77_995">Donate</span>
-      <span class="v77_996">Scholarship</span>
-      <span class="v77_997">Internship</span>
-      <div class="v77_998">
-        <div class="v77_999">
-          <span class="v77_1000">Search </span>
+      <span class="v76_1107">Notification</span>
+      <div class="v76_1112">
+        <div class="v76_1113">
+          <span class="v76_1114">Search </span>
         </div>
-        <div class="v77_1001"></div>
-        <div class="v77_1002">
-          <div class="v77_1003">
-            <div class="v77_1004"></div>
-          </div>
+        <div class="v76_1115"></div>
+        <div class="v76_1116">
+          <div class="v76_1117"><div class="v76_1118"></div></div>
         </div>
       </div>
-      <div class="v77_1005"></div>
-      <span class="v77_1006"
+      <div class="v76_1119"></div>
+      <span class="v76_1127"
         >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
         necessitatibus veritatis sed molestiae voluptates incidunt iure
         sapiente.</span
-      ><span class="v77_1007"
+      >
+      <span class="v76_1131"
         >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
         necessitatibus veritatis sed molestiae voluptates incidunt iure
         sapiente.</span
-      ><span class="v77_1008"
+      >
+      <span class="v76_1135"
         >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
         necessitatibus veritatis sed molestiae voluptates incidunt iure
         sapiente.</span
-      ><span class="v77_1009"
+      >
+      <span class="v76_1139"
         >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
         necessitatibus veritatis sed molestiae voluptates incidunt iure
         sapiente.</span
       >
       <div class="name"></div>
       <div class="name"></div>
-      <div class="v77_1013"></div>
+      <div class="v76_1143"></div>
       <div class="name"></div>
       <div class="name"></div>
       <div class="name"></div>
-      <div class="v77_1057"></div>
-      <span class="v77_2981">INTERNSHIP PROGRAMS</span>
+      <div class="v77_984"></div>
+      <span class="v77_2982">SCHOLARSHIP PROGRAMS</span>
+      <span class="v160_1539">Home</span>
+      <span class="v160_1540">Donate</span>
+      <span class="v160_1541">Scholarship</span>
+      <span class="v160_1542">Internship</span>
     </div>
   </div>
 </template>
+
 <style>
 * {
   box-sizing: border-box;
@@ -74,9 +82,9 @@
 body {
   font-size: 14px;
 }
-.v77_985 {
+.v76_1100 {
   width: 100%;
-  height: 1063px;
+  height: 1080px;
   background: rgba(246, 238, 224, 1);
   opacity: 1;
   position: absolute;
@@ -84,8 +92,20 @@ body {
   left: 0px;
   overflow: hidden;
 }
-
-.v77_988 {
+.v76_1101 {
+  width: 198px;
+  height: 71px;
+  background: url("../images/v76_1101.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 67px;
+  left: 1649px;
+  overflow: hidden;
+}
+.v76_1102 {
   width: 107px;
   color: rgba(37, 43, 66, 1);
   position: absolute;
@@ -97,7 +117,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v77_989 {
+.v76_1103 {
   width: 68px;
   height: 71px;
   background: rgba(232, 232, 232, 1);
@@ -111,7 +131,7 @@ body {
   border-bottom-right-radius: 80px;
   overflow: hidden;
 }
-.v77_990 {
+.v76_1104 {
   width: 31px;
   height: 36px;
   background: rgba(255, 255, 255, 1);
@@ -121,10 +141,10 @@ body {
   left: 18px;
   overflow: hidden;
 }
-.v77_991 {
+.v76_1105 {
   width: 29px;
   height: 34px;
-  background: url("~/assets/images/v77_991.png");
+  background: url("../images/v76_1105.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -134,80 +154,32 @@ body {
   left: 1px;
   overflow: hidden;
 }
-.v77_992 {
+.v76_1106 {
   width: 29px;
   height: 34px;
-  background: url("~/assets/images/v77_992.png");
+  background: url("../images/v76_1106.png");
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 0px;
   border: 2.447819232940674px solid rgba(37, 43, 66, 1);
 }
-.v77_993 {
+.v76_1107 {
   width: 107px;
   color: rgba(37, 43, 66, 1);
   position: absolute;
-  top: 77px;
-  left: 1510px;
+  top: 85px;
+  left: 1502px;
   font-family: Montserrat;
   font-weight: SemiBold;
   font-size: 17px;
   opacity: 1;
   text-align: center;
 }
-.v77_994 {
-  width: 69px;
-  color: rgba(114, 114, 114, 1);
-  position: absolute;
-  top: 84px;
-  left: 840px;
-  font-family: Montserrat;
-  font-weight: SemiBold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v77_995 {
-  width: 142px;
-  color: rgba(114, 114, 114, 1);
-  position: absolute;
-  top: 84px;
-  left: 1261px;
-  font-family: Montserrat;
-  font-weight: SemiBold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v77_996 {
-  width: 142px;
-  color: rgba(114, 114, 114, 1);
-  position: absolute;
-  top: 84px;
-  left: 941px;
-  font-family: Montserrat;
-  font-weight: SemiBold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v77_997 {
-  width: 142px;
-  color: rgba(114, 114, 114, 1);
-  position: absolute;
-  top: 84px;
-  left: 1103px;
-  font-family: Montserrat;
-  font-weight: SemiBold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v77_998 {
-  width: 600px;
-  height: 40px;
-  background: url("~/assets/images/v77_998.png");
+.v76_1112 {
+  width: 584px;
+  height: 57px;
+  background: url("../images/v76_1112.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -217,9 +189,9 @@ body {
   left: 224px;
   overflow: hidden;
 }
-.v77_999 {
-  width: 531px;
-  height: 40px;
+.v76_1113 {
+  width: 515px;
+  height: 57px;
   background: rgba(245, 245, 245, 1);
   padding: 21px 28px;
   margin: 54px;
@@ -231,11 +203,11 @@ body {
   border-bottom-left-radius: 5px;
   overflow: hidden;
 }
-.v77_1000 {
+.v76_1114 {
   width: 56px;
   color: rgba(114, 114, 114, 1);
   position: absolute;
-  top: 3px;
+  top: 12px;
   left: 30px;
   font-family: Montserrat;
   font-weight: Regular;
@@ -243,35 +215,35 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v77_1001 {
+.v76_1115 {
   width: 179px;
-  height: 40px;
-  background: url("~/assets/images/v77_1001.png");
+  height: 57px;
+  background: url("../images/v76_1115.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
   top: 0px;
-  left: 352px;
+  left: 336px;
   overflow: hidden;
 }
-.v77_1002 {
+.v76_1116 {
   width: 69px;
-  height: 40px;
-  background: url("~/assets/images/v77_1002.png");
+  height: 57px;
+  background: url("../images/v76_1116.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
   top: 1px;
-  left: 530px;
+  left: 514px;
   overflow: hidden;
 }
-.v77_1003 {
+.v76_1117 {
   width: 69px;
-  height: 40px;
+  height: 57px;
   background: rgba(164, 92, 64, 1);
   padding: 21px 23px;
   margin: 11px;
@@ -283,19 +255,19 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.v77_1004 {
+.v76_1118 {
   width: 23px;
   height: 23px;
   background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
-  top: 7px;
+  top: 16px;
   left: 23px;
 }
-.v77_1005 {
+.v76_1119 {
   width: 285px;
   height: 299px;
-  background: url("~/assets/images/v77_1005.png");
+  background: url("../images/v76_1119.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -305,48 +277,48 @@ body {
   left: 16px;
   overflow: hidden;
 }
-.v77_1006 {
-  width: 210px;
+.v76_1127 {
+  width: 209px;
   color: rgba(31, 41, 55, 1);
   position: absolute;
-  top: 1076px;
-  left: 242px;
+  top: 1094px;
+  left: 240px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 16px;
   opacity: 1;
   text-align: left;
 }
-.v77_1007 {
-  width: 210px;
+.v76_1131 {
+  width: 209px;
   color: rgba(31, 41, 55, 1);
   position: absolute;
-  top: 1073px;
-  left: 1343px;
+  top: 1091px;
+  left: 1332px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 16px;
   opacity: 1;
   text-align: left;
 }
-.v77_1008 {
-  width: 210px;
+.v76_1135 {
+  width: 209px;
   color: rgba(31, 41, 55, 1);
   position: absolute;
-  top: 1073px;
-  left: 976px;
+  top: 1091px;
+  left: 968px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 16px;
   opacity: 1;
   text-align: left;
 }
-.v77_1009 {
-  width: 210px;
+.v76_1139 {
+  width: 209px;
   color: rgba(31, 41, 55, 1);
   position: absolute;
-  top: 1076px;
-  left: 609px;
+  top: 1094px;
+  left: 604px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 16px;
@@ -359,10 +331,10 @@ body {
 .name {
   color: #fff;
 }
-.v77_1013 {
+.v76_1143 {
   width: 52px;
   height: 58px;
-  background: url("~/assets/images/v77_1013.png");
+  background: url("../images/v76_1143.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -381,29 +353,77 @@ body {
 .name {
   color: #fff;
 }
-.v77_1057 {
-  width: 390px;
-  height: 793px;
-  background: url("~/assets/images/v77_1057.png");
+.v77_984 {
+  width: 374px;
+  height: 798px;
+  background: url("../images/v77_984.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 270px;
-  left: 1476px;
+  top: 272px;
+  left: 1502px;
   overflow: hidden;
 }
-.v77_2981 {
-  width: 608px;
+.v77_2982 {
+  width: 671px;
   color: rgba(71, 83, 102, 1);
   position: absolute;
-  top: 230px;
-  left: 742px;
+  top: 235px;
+  left: 753px;
   font-family: Inter;
   font-weight: Extra Bold;
   font-size: 50px;
   opacity: 1;
   text-align: left;
+}
+.v160_1539 {
+  width: 69px;
+  color: rgba(114, 114, 114, 1);
+  position: absolute;
+  top: 87px;
+  left: 839px;
+  font-family: Montserrat;
+  font-weight: SemiBold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v160_1540 {
+  width: 142px;
+  color: rgba(114, 114, 114, 1);
+  position: absolute;
+  top: 87px;
+  left: 1259px;
+  font-family: Montserrat;
+  font-weight: SemiBold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v160_1541 {
+  width: 142px;
+  color: rgba(114, 114, 114, 1);
+  position: absolute;
+  top: 87px;
+  left: 939px;
+  font-family: Montserrat;
+  font-weight: SemiBold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v160_1542 {
+  width: 142px;
+  color: rgba(114, 114, 114, 1);
+  position: absolute;
+  top: 87px;
+  left: 1101px;
+  font-family: Montserrat;
+  font-weight: SemiBold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
 }
 </style>
