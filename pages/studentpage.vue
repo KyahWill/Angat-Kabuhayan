@@ -113,7 +113,7 @@ body {
 .v77_1060 {
   width: 198px;
   height: 71px;
-  background: url("~/assets/images/v77_1060.png");
+  /* background: url("~/assets/images/v77_1060.png"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
