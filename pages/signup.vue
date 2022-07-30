@@ -15,6 +15,7 @@ const register = async () => {
     setTimeout(() => {
       registerMessage.value = ""
     }, 3000);
+    window.location.href = window.location.origin + "/home" 
   }
 
 }
@@ -37,7 +38,6 @@ const register = async () => {
     </Head>
 
     <div class="v50_71">
-      <div class="v50_72"></div>
       <div class="v11_34"></div>
       <div
         class="inline-block"
@@ -145,19 +145,6 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
-  overflow: hidden;
-}
-.v50_72 {
-  width: 100%;
-  height: 918px;
-  background: url("../images/v50_72.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 131px;
-  left: 261px;
   overflow: hidden;
 }
 .v11_34 {

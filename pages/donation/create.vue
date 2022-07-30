@@ -1,5 +1,5 @@
 <template>
-  <Head>
+  <!-- <Head>
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
@@ -80,6 +80,7 @@
     <span class="v160_1526">Internship</span>
   </div>
   <br /><br />
+   -->
 </template>
 <style>
 * {
@@ -565,5 +566,5 @@ body {
   font-size: 20px;
   opacity: 1;
   text-align: center;
-}
+} 
 </style>

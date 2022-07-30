@@ -42,7 +42,9 @@ const signin = () => {
             <span class="v50_75 text-center">LOGIN</span>
           </div>
           <div class="v50_76 flex-1 flex items-center justify-center">
-            <span class="v50_77 text-center">SIGN UP</span>
+            <a href="/signup">
+              <span class="v50_77 text-center" >SIGN UP</span>
+            </a>
           </div>
         </div>
 
