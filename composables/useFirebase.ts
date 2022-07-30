@@ -48,14 +48,15 @@ export const initUser = async () => {
       // https://firebase.google.com/docs/reference/js/firebase.User
     } else {
       //if signed out
-      router.push("/");
+      router.push("/signup");
     }
 
     firebaseUser.value = user;
 
     // @ts-ignore
     userCookie.value = user; //ignore error because nuxt will serialize to json
-
+    
+    console.log(user)
     $fetch("/api/auth", {
       method: "POST",
       body: { user }

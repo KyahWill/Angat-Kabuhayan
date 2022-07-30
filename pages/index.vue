@@ -6,8 +6,8 @@ onMounted( async () => {
   // const credentials = await createUser(email, password)
   // console.log(credentials)
   
-  const credentials = await signinUser("knownbutnotloved@gmail.com", "123456")
-  console.log(credentials)
+  // const credentials = await signinUser("knownbutnotloved@gmail.com", "123456")
+  // console.log(credentials)
 })
 </script>
 <template>

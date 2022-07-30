@@ -18,26 +18,7 @@
     </Head>
 
     <div class="v76_1100">
-      <div class="v76_1101">
-        <span class="v76_1102">My Profile</span>
-        <div class="v76_1103">
-          <div class="v76_1104">
-            <div class="v76_1105">
-              <div class="v76_1106"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <span class="v76_1107">Notification</span>
-      <div class="v76_1112">
-        <div class="v76_1113">
-          <span class="v76_1114">Search </span>
-        </div>
-        <div class="v76_1115"></div>
-        <div class="v76_1116">
-          <div class="v76_1117"><div class="v76_1118"></div></div>
-        </div>
-      </div>
+      <TheHeader />      
       <div class="v76_1119"></div>
       <span class="v76_1127"
         >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
