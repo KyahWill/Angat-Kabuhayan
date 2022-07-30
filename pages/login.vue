@@ -6,18 +6,11 @@ const firebaseUser = useFirebaseUser();
 const registerMessage = ref();
 
 
-const register = async () => {
-  console.log(form.value);
-  const credentials = await createUser(form.value.email, form.value.password);
+const signin = () => {
+  signInUser(form.value.email, form.value.password);
   form.value = { email: "", password: "" };
-  if(credentials) {
-    registerMessage.value = `Successfully registered: ${credentials.user.email}`
-    setTimeout(() => {
-      registerMessage.value = ""
-    }, 3000);
-  }
+};
 
-}
 </script>
 
 
@@ -33,7 +26,7 @@ const register = async () => {
         rel="stylesheet"
       />
       <Link href="./css/main.css" rel="stylesheet" />
-      <Title>Sign Up</Title>
+      <Title> Log in </Title>
     </Head>
 
     <div class="v50_71">
@@ -46,16 +39,14 @@ const register = async () => {
       >
         <div name="tabs" class="flex">
           <div class="v50_74 flex-1 flex items-center justify-center">
-            <a href="/login ">
             <span class="v50_75 text-center">LOGIN</span>
-            </a>
           </div>
           <div class="v50_76 flex-1 flex items-center justify-center">
             <span class="v50_77 text-center">SIGN UP</span>
           </div>
         </div>
 
-        <form style="padding: 20px; background-color: white">
+        <form style="padding: 20px; background-color:#C38370; ">
           <span class="v50_91 text-center" style="margin-bottom: 40px"
             >WELCOME TO ANGAT-KINABUKASAN</span
           >
@@ -66,7 +57,7 @@ const register = async () => {
                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 for="grid-password"
               >
-                Enter your Email address
+                Email address
               </label>
               <input
                 class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
@@ -74,35 +65,6 @@ const register = async () => {
                 type="text"
                 placeholder="username or email address"
                 v-model="form.email"
-              />
-            </div>
-          </div>
-          <div class="flex flex-wrap -mx-3 mb-6">
-            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label
-                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              >
-                User name
-              </label>
-
-              <input
-                class="appearance-none block w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                type="text"
-                placeholder="User name"
-                v-model="form.username"
-              />
-            </div>
-            <div class="w-full md:w-1/2 px-3">
-              <label
-                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              >
-                Contact Number
-              </label>
-              <input
-                class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                type="text"
-                placeholder="Contact Number"
-                v-model="form.contact"
               />
             </div>
           </div>
@@ -124,7 +86,7 @@ const register = async () => {
               />
             </div>
           </div>
-          <button class="btn" @click.prevent="register"> Sign Up</button>
+          <button class="btn" @click.prevent="login"> Log In</button>
         </form>
       </div>
     </div>

@@ -12,44 +12,7 @@
       <link href="./css/main.css" rel="stylesheet" />
       <title>Document</title>
     </Head>
-    <div class="v160_2253">
-      <div class="v160_2255">
-        <div class="v160_2256">
-          <span class="v160_2257">Search </span>
-        </div>
-        <div class="v160_2258"></div>
-        <div class="v160_2259">
-          <div class="v160_2260">
-            <div class="v160_2261"></div>
-          </div>
-        </div>
-      </div>
-      <div class="v160_2262"></div>
-      <div class="v160_2264"></div>
-      <span class="v160_2265">Notification</span>
-      <div class="v160_2266"></div>
-      <div class="v160_2267">
-        <span class="v160_2268">My Profile</span>
-        <div class="v160_2269">
-          <div class="v160_2270">
-            <div class="v160_2271">
-              <div class="v160_2272"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <span class="v160_2273">Home</span>
-      <span class="v160_2274">Donate</span>
-      <span class="v160_2275">Scholarship</span>
-      <span class="v160_2276">Internship</span>
-      <div class="v160_2296">
-        <div class="v160_2295">
-          <span class="v160_2254">Do You Have Any Other Question</span>
-          <div class="v160_2263"></div>
-          <div class="v160_2288"></div>
-        </div>
-      </div>
-    </div>
+    <TheHeader />
     <div class="v160_2294">
       <div class="v160_2292">
         <div class="v160_2291"></div>
