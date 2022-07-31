@@ -7,8 +7,16 @@ const registerMessage = ref();
 
 
 const signin = () => {
-  signInUser(form.value.email, form.value.password);
+  const credentials = await signInUser(form.value.email, form.value.password);
   form.value = { email: "", password: "" };
+  
+  if(credentials) {
+    registerMessage.value = `Successfully registered: ${credentials.user.email}`
+    setTimeout(() => {
+      registerMessage.value = ""
+    }, 3000);
+    window.location.href = window.location.origin + "/home" 
+  }
 };
 
 </script>

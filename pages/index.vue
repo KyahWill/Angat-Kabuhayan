@@ -67,7 +67,7 @@ onMounted( async () => {
         Your partner towards building a brighter future in your education
       </span>
       <div class="v50_281">
-        <a class="v50_282" href="/signup">Get started</a>
+        <a class="v50_282" href="/login">Get started</a>
       </div>
       <div class="v155_1210 flex items-center">
         <span class="v155_1212">
