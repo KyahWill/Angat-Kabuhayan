@@ -21,7 +21,6 @@
 </script>
 <template>
     <div name="authLayout" class="bg-base-100">
-        <TheHeader />
         <slot />
     </div>
 </template>
