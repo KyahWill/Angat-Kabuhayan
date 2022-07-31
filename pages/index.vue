@@ -95,45 +95,9 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v11_8 {
-  width: 108px;
-  height: 24px;
-  background: url("~/assets/images/v11_8.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 115px;
-  left: 283px;
-  overflow: hidden;
-}
-.v11_12 {
-  width: 108px;
-  height: 24px;
-  background: url("~/assets/images/v11_12.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v11_13 {
-  width: 108px;
-  height: 24px;
-  background: url("~/assets/images/v11_13.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
+
+
+
 .v11_14 {
   width: 108px;
   color: rgba(164, 92, 64, 1);
@@ -147,30 +111,6 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v11_15 {
-  width: 92px;
-  height: 24px;
-  background: url("~/assets/images/v11_15.png");
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 115px;
-  left: 466px;
-  overflow: hidden;
-}
-.v11_16 {
-  width: 92px;
-  height: 24px;
-  background: url("~/assets/images/v11_16.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
 }
 .v11_17 {
   width: 92px;
@@ -197,19 +137,6 @@ body {
   left: 143px;
   overflow: hidden;
 }
-.v11_10 {
-  width: 64px;
-  height: 24px;
-  background: url("~/assets/images/v11_10.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
 .v11_11 {
   width: 64px;
   color: rgba(164, 92, 64, 1);
@@ -233,19 +160,6 @@ body {
   font-size: 20px;
   opacity: 1;
   text-align: center;
-}
-.v11_32 {
-  width: 97px;
-  height: 24px;
-  background: url("~/assets/images/v11_32.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 115px;
-  left: 829px;
-  overflow: hidden;
 }
 .v11_33 {
   width: 97px;
