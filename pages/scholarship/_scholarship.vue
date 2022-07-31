@@ -1,13 +1,24 @@
 <template>
-<head>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
-  <link href="./css/main.css" rel="stylesheet" /><title>Document</title>
-</head>
-<body>
-  <div class="v160_1589">
-    <div class="v160_1590">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/main.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="v160_1589">
+      <TheHeadernew />
+      <!-- <div class="v160_1590">
       <span class="v160_1591">My Profile</span>
       <div class="v160_1592">
         <div class="v160_1593">
@@ -26,38 +37,71 @@
             <div class="v160_1601">
               <div class="v160_1602">
                 <div class="v160_1603"
-                ></div></div></div></div>
-                <div class="v160_1604"></div>
-                <span class="v160_1605">Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</span>
-                <span class="v160_1606">Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</span>
-                <span class="v160_1607">Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</span>
-                <span class="v160_1608">Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</span>
-                <div class="name"></div>
-                <div class="v160_1611"></div>
-                <span class="v160_1616">ABOUT SCHOLARSHIP</span>
-                <span class="v160_1617">Home</span>
+                ></div></div></div></div> -->
+      <div class="v160_1604"></div>
+      <span class="v160_1605"
+        >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
+        necessitatibus veritatis sed molestiae voluptates incidunt iure
+        sapiente.</span
+      >
+      <span class="v160_1606"
+        >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
+        necessitatibus veritatis sed molestiae voluptates incidunt iure
+        sapiente.</span
+      >
+      <span class="v160_1607"
+        >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
+        necessitatibus veritatis sed molestiae voluptates incidunt iure
+        sapiente.</span
+      >
+      <span class="v160_1608"
+        >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
+        necessitatibus veritatis sed molestiae voluptates incidunt iure
+        sapiente.</span
+      >
+      <div class="name"></div>
+      <div class="v160_1611"></div>
+      <span class="v160_1616">ABOUT SCHOLARSHIP</span>
+      <!--<span class="v160_1617">Home</span>
                 <span class="v160_1618">Donate</span>
                 <span class="v160_1619">Scholarship</span>
-                <span class="v160_1620">Internship</span>
-                <div class="v160_1730">
-                  <span class="v160_1659">BEING A CHED SCHOLAR</span>
-                  <span class="v160_1660">Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies mollis dictumst, aenean non a in donec nulla. Phasellus ante pellentesque erat cum risus consequat imperdiet aliquam, integer placerat et turpis mi eros nec lobortis taciti, vehicula nisl litora tellus ligula porttitor metus. Vivamus integer non suscipit taciti mus etiam at primis tempor sagittis sit, euismod libero facilisi aptent elementum felis blandit cursus gravida sociis erat ante, eleifend lectus nullam dapibus netus feugiat curae curabitur est ad. Massa curae fringilla porttitor quam sollicitudin iaculis aptent leo ligula euismod dictumst, orci penatibus mauris eros etiam praesent erat volutpat posuere hac. Metus fringilla nec ullamcorper odio aliquam lacinia conubia mauris tempor, etiam ultricies proin quisque lectus sociis id tristique, integer phasellus taciti pretium adipiscing tortor sagittis ligula</span>
-                  </div><div class="v160_1743">
-                    <div class="v160_1744"></div>
-                    <span class="v160_1745">APPLY</span>
-                    </div><div class="v160_1746">
-                      <div class="v160_1747"></div>
-                      <span class="v160_1748">BACK</span>
-                      </div><div class="v160_1756">
-                        <div class="v160_1656"></div>
-                        <span class="v160_1755">CHED</span>
-                        </div></div>
-                  </body>
-
+                <span class="v160_1620">Internship</span> -->
+      <div class="v160_1730">
+        <span class="v160_1659">BEING A CHED SCHOLAR</span>
+        <span class="v160_1660"
+          >Lorem ipsum dolor sit amet consectetur adipiscing elit, urna
+          consequat felis vehicula class ultricies mollis dictumst, aenean non a
+          in donec nulla. Phasellus ante pellentesque erat cum risus consequat
+          imperdiet aliquam, integer placerat et turpis mi eros nec lobortis
+          taciti, vehicula nisl litora tellus ligula porttitor metus. Vivamus
+          integer non suscipit taciti mus etiam at primis tempor sagittis sit,
+          euismod libero facilisi aptent elementum felis blandit cursus gravida
+          sociis erat ante, eleifend lectus nullam dapibus netus feugiat curae
+          curabitur est ad. Massa curae fringilla porttitor quam sollicitudin
+          iaculis aptent leo ligula euismod dictumst, orci penatibus mauris eros
+          etiam praesent erat volutpat posuere hac. Metus fringilla nec
+          ullamcorper odio aliquam lacinia conubia mauris tempor, etiam
+          ultricies proin quisque lectus sociis id tristique, integer phasellus
+          taciti pretium adipiscing tortor sagittis ligula</span
+        >
+      </div>
+      <div class="v160_1743">
+        <div class="v160_1744"></div>
+        <span class="v160_1745">APPLY</span>
+      </div>
+      <div class="v160_1746">
+        <div class="v160_1747"></div>
+        <span class="v160_1748">BACK</span>
+      </div>
+      <div class="v160_1756">
+        <div class="v160_1656"></div>
+        <span class="v160_1755">CHED</span>
+      </div>
+    </div>
+  </body>
 </template>
 <style>
-/*
-  * {
+* {
   box-sizing: border-box;
 }
 body {
@@ -66,7 +110,7 @@ body {
 .v160_1589 {
   width: 100%;
   height: 1080px;
-  background: rgba(246,238,224,1);
+  background: rgba(246, 238, 224, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -88,7 +132,7 @@ body {
 }
 .v160_1591 {
   width: 107px;
-  color: rgba(37,43,66,1);
+  color: rgba(37, 43, 66, 1);
   position: absolute;
   top: 17px;
   left: 90px;
@@ -101,7 +145,7 @@ body {
 .v160_1592 {
   width: 68px;
   height: 71px;
-  background: rgba(232,232,232,1);
+  background: rgba(232, 232, 232, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -115,7 +159,7 @@ body {
 .v160_1593 {
   width: 31px;
   height: 36px;
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
   top: 16px;
@@ -143,11 +187,11 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  border: 2.447819232940674px solid rgba(37,43,66,1);
+  border: 2.447819232940674px solid rgba(37, 43, 66, 1);
 }
 .v160_1596 {
   width: 107px;
-  color: rgba(37,43,66,1);
+  color: rgba(37, 43, 66, 1);
   position: absolute;
   top: 85px;
   left: 1502px;
@@ -173,7 +217,7 @@ body {
 .v160_1598 {
   width: 515px;
   height: 57px;
-  background: rgba(245,245,245,1);
+  background: rgba(245, 245, 245, 1);
   padding: 21px 28px;
   margin: 54px;
   opacity: 1;
@@ -186,7 +230,7 @@ body {
 }
 .v160_1599 {
   width: 56px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 12px;
   left: 30px;
@@ -225,7 +269,7 @@ body {
 .v160_1602 {
   width: 69px;
   height: 57px;
-  background: rgba(164,92,64,1);
+  background: rgba(164, 92, 64, 1);
   padding: 21px 23px;
   margin: 11px;
   opacity: 1;
@@ -239,7 +283,7 @@ body {
 .v160_1603 {
   width: 23px;
   height: 23px;
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
   top: 16px;
@@ -260,7 +304,7 @@ body {
 }
 .v160_1605 {
   width: 209px;
-  color: rgba(31,41,55,1);
+  color: rgba(31, 41, 55, 1);
   position: absolute;
   top: 1094px;
   left: 240px;
@@ -272,7 +316,7 @@ body {
 }
 .v160_1606 {
   width: 209px;
-  color: rgba(31,41,55,1);
+  color: rgba(31, 41, 55, 1);
   position: absolute;
   top: 1091px;
   left: 1332px;
@@ -284,7 +328,7 @@ body {
 }
 .v160_1607 {
   width: 209px;
-  color: rgba(31,41,55,1);
+  color: rgba(31, 41, 55, 1);
   position: absolute;
   top: 1091px;
   left: 968px;
@@ -296,7 +340,7 @@ body {
 }
 .v160_1608 {
   width: 209px;
-  color: rgba(31,41,55,1);
+  color: rgba(31, 41, 55, 1);
   position: absolute;
   top: 1094px;
   left: 604px;
@@ -324,7 +368,7 @@ body {
 }
 .v160_1616 {
   width: 558px;
-  color: rgba(71,83,102,1);
+  color: rgba(71, 83, 102, 1);
   position: absolute;
   top: 235px;
   left: 753px;
@@ -336,7 +380,7 @@ body {
 }
 .v160_1617 {
   width: 69px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 87px;
   left: 839px;
@@ -348,7 +392,7 @@ body {
 }
 .v160_1618 {
   width: 142px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 87px;
   left: 1259px;
@@ -360,7 +404,7 @@ body {
 }
 .v160_1619 {
   width: 142px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 87px;
   left: 939px;
@@ -372,7 +416,7 @@ body {
 }
 .v160_1620 {
   width: 142px;
-  color: rgba(114,114,114,1);
+  color: rgba(114, 114, 114, 1);
   position: absolute;
   top: 87px;
   left: 1101px;
@@ -397,7 +441,7 @@ body {
 }
 .v160_1659 {
   width: 247px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -409,7 +453,7 @@ body {
 }
 .v160_1660 {
   width: 894px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 58px;
   left: 53px;
@@ -435,7 +479,7 @@ body {
 .v160_1744 {
   width: 350px;
   height: 81px;
-  background: rgba(195,131,112,1);
+  background: rgba(195, 131, 112, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -443,7 +487,7 @@ body {
 }
 .v160_1745 {
   width: 142px;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 33px;
   left: 108px;
@@ -469,7 +513,7 @@ body {
 .v160_1747 {
   width: 350px;
   height: 81px;
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -477,7 +521,7 @@ body {
 }
 .v160_1748 {
   width: 142px;
-  color: rgba(195,131,112,1);
+  color: rgba(195, 131, 112, 1);
   position: absolute;
   top: 33px;
   left: 108px;
@@ -515,7 +559,7 @@ body {
 }
 .v160_1755 {
   width: 712px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 553px;
   left: 0px;
@@ -525,5 +569,4 @@ body {
   opacity: 1;
   text-align: center;
 }
-*/
 </style>

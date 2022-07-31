@@ -15,7 +15,8 @@
       />
     </Head>
     <div class="v160_1661">
-      <div class="v160_1662">
+      <TheHeadernew />
+      <!--  <div class="v160_1662">
         <span class="v160_1663">My Profile</span>
         <div class="v160_1664">
           <div class="v160_1665">
@@ -41,7 +42,7 @@
             <div class="v160_1726"></div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="v160_1680"></div>
       <span class="v160_1681"
         >Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit
@@ -63,7 +64,9 @@
       <span class="v160_1692">ABOUT INTERNSHIP</span>
       <div class="v160_1728"></div>
       <div class="v160_1731">
-        <span class="v160_1732">Requirements and Qualification</span>
+        <span class="v160_1732"
+          ><strong>Requirements and Qualification</strong></span
+        >
         <span class="v160_1733"
           >Lorem ipsum dolor sit amet consectetur adipiscing elit, urna
           consequat felis vehicula class ultricies mollis dictumst, aenean non a
@@ -96,7 +99,6 @@
 </template>
 
 <style>
-/*
 * {
   box-sizing: border-box;
 }
@@ -552,5 +554,5 @@ body {
   font-size: 60px;
   opacity: 1;
   text-align: center;
-} */
+}
 </style>

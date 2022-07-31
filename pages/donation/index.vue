@@ -1,7 +1,6 @@
 <script setup lang="ts">
-    const donations = await getFirestoreData("Donations")
-    console.log("This shouldn't happen though")
-
+const donations = await getFirestoreData("Donations");
+console.log("This shouldn't happen though");
 </script>
 <template>
   <Head>
@@ -18,17 +17,19 @@
       rel="stylesheet"
     />
   </Head>
+  <TheHeadernew />
   <NuxtLayout name="auth">
-    <div style="text-align:center">
+    <div style="text-align: center">
       <span class="v77_3003">DONATION</span>
     </div>
     <div class="flex justify-center">
       <DonationCard
-       v-for="donation in donations"
-       :key ="donation.id"
-       :Title ="donation.Title"
-       :Description ="donation.Description"
-       :imgUrl ="donation.imgUrl"/>
+        v-for="donation in donations"
+        :key="donation.id"
+        :Title="donation.Title"
+        :Description="donation.Description"
+        :imgUrl="donation.imgUrl"
+      />
     </div>
   </NuxtLayout>
 </template>

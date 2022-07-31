@@ -25,7 +25,9 @@
       <Link href="./css/main.css" rel="stylesheet" />
       <Title>Student View</Title>
     </Head>
+
     <div class="v77_1238">
+      <TheHeadernew />
       <div class="v77_1243">
         <span class="v77_1244">My Profile</span>
         <div class="v77_1245">
