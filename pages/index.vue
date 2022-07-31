@@ -111,7 +111,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-}
+
 .v11_17 {
   width: 92px;
   color: rgba(164, 92, 64, 1);
