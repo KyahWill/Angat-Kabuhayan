@@ -6,7 +6,7 @@ const firebaseUser = useFirebaseUser();
 const registerMessage = ref();
 
 
-const signin = () => {
+const signin = async () => {
   const credentials = await signInUser(form.value.email, form.value.password);
   form.value = { email: "", password: "" };
   
