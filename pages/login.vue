@@ -96,7 +96,7 @@ const signin = async () => {
               />
             </div>
           </div>
-          <button class="btn" @click.prevent="login"> Log In</button>
+          <button class="btn" @click.prevent="signin"> Log In</button>
         </form>
       </div>
     </div>
