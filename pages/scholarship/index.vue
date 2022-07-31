@@ -22,7 +22,10 @@
 
     
     <NuxtLayout name="auth">
-      <span class="v77_2982">SCHOLARSHIP PROGRAMS</span>
+      <div style="text-align: center;" >
+        <span class="v77_2982">SCHOLARSHIP PROGRAMS</span>
+      </div>
+      <TheCard />
     </NuxtLayout>
   </div>
 </template>
@@ -31,13 +34,10 @@
 .v77_2982 {
   width: 671px;
   color: rgba(71, 83, 102, 1);
-  position: absolute;
-  top: 235px;
-  left: 753px;
+  position: relative;
   font-family: Inter;
   font-weight: Extra Bold;
   font-size: 50px;
   opacity: 1;
-  text-align: left;
 }
 </style>

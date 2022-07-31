@@ -8,6 +8,7 @@
     </Head>
     <NuxtLayout name="auth">
       <span class="v77_2982">SCHOLARSHIP PROGRAMS</span>
+
     </NuxtLayout>
     <!-- <div class="v160_1900">
         <div class="v162_1491">
