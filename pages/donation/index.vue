@@ -1,21 +1,7 @@
 <script setup lang="ts">
-  onMounted( async () => {
     const donations = await getFirestoreData("Donations")
     console.log("This shouldn't happen though")
-  })
-//   console.log(donations)
-// })
-// onMounted( async () => {
 
-//   // const email = "knownbutnotloved@gmail.com"
-//   // const password = "password"
-
-//   // const credentials = await createUser(email, password)
-//   // console.log(credentials)
-  
-//   // const credentials = await signinUser("knownbutnotloved@gmail.com", "123456")
-//   // console.log(credentials)
-// })
 </script>
 <template>
   <Head>

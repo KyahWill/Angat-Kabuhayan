@@ -96,6 +96,7 @@
 </template>
 
 <style>
+/*
 * {
   box-sizing: border-box;
 }
@@ -551,5 +552,5 @@ body {
   font-size: 60px;
   opacity: 1;
   text-align: center;
-}
+} */
 </style>

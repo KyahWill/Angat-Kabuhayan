@@ -33,6 +33,7 @@
 </template>
 
 <style>
+/*
 * {
   box-sizing: border-box;
 }
@@ -511,4 +512,5 @@ body {
   left: 64px;
   overflow: hidden;
 }
+*/
 </style>

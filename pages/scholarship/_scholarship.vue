@@ -56,6 +56,7 @@
 
 </template>
 <style>
+/*
   * {
   box-sizing: border-box;
 }
@@ -524,5 +525,5 @@ body {
   opacity: 1;
   text-align: center;
 }
-
+*/
 </style>

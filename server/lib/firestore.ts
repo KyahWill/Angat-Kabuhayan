@@ -43,7 +43,7 @@ import {
   };
   
   export const get = async (col, id) => {
-    const docRef = doc(firestoreDb, col, id);
+    const docRef = getDoc(firestoreDb, col, id);
     return docRef;
   };
 
