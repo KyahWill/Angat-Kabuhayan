@@ -124,19 +124,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v11_9 {
-  width: 64px;
-  height: 24px;
-  background: url("~/assets/images/v11_9.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 115px;
-  left: 143px;
-  overflow: hidden;
-}
+
 .v11_11 {
   width: 64px;
   color: rgba(164, 92, 64, 1);
